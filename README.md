@@ -1,5 +1,5 @@
 # opdf.dll
- Active DLL para la creación de documentos PDF
+ Active DLL para la creación de documentos PDF desde VB6 ó ASP Classic
  
  Más información:
  
