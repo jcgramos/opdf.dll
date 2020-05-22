@@ -1,0 +1,19 @@
+INSTRUCCIONES PARA EJECUTAR LA DEMOSTRACION.
+
+1.- Entrar en proyectos - Referencias y actualizar la referencia de la DLL. Lo normal es que no sea correcta ya que se ha realizado un nuevo registro.
+
+2.- Resulta que mi unidad de disco es la D: así que tendran que cambiar el nombre del fichero a la unidad corresponidente.
+
+3.- Si no te has bajado la libreria zlib.dll y copiado a tu directorio de sistemas, te dara error. Para solventarlo, deberas cambiar el ultimo parametro de estas dos lineas a False 
+
+    'Cargo las imagenes, para comprimir necesita zlib.dll (Libre)
+    oDoc.LoadImage Image1, "Logo", False, True
+    oDoc.LoadImage Image1, "LogoGris", True, True
+
+    O bajarte las zlib (recomendado) para comprimir las imagenes.
+
+
+Y eso es todos amigos...
+
+Un saludo:
+  Jefe Negro.
